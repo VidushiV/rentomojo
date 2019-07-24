@@ -1,0 +1,16 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "Web crawler",
+  "main": "webCrawler.js",
+  "scripts": {
+    "test": "mocha --recursive test/unit",
+    "coverage": "istanbul cover _mocha"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.3",
+    "mysql": "2.17.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
